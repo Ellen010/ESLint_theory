@@ -1,9 +1,11 @@
-ESLint is a static code analysis tool for identifying and fixing problematic patterns in JavaScript code. It helps ensure that code adheres to certain style guidelines and best practices, preventing potential bugs and improving code quality. ESLint can catch syntax errors, style issues, and even more complex issues like unused variables or functions, ensuring that your code follows consistent standards.
+ESLint is a static code analysis tool for identifying and fixing problematic patterns in JavaScript code. It helps ensure that code adheres to certain style guidelines and best practices, preventing potential bugs and improving code quality.
+ESLint can catch syntax errors, style issues, and even more complex issues like unused variables or functions, ensuring that your code follows consistent standards.
 
 Main Features of ESLint:
 Linting: ESLint checks for common errors in JavaScript and can be extended to other languages like TypeScript.
 Code Style Enforcement: You can enforce coding standards, such as spacing, indentation, or naming conventions, based on pre-configured or custom rules.
-Pluggable and Configurable: ESLint allows you to write custom rules or use pre-defined ones (like from Airbnb or Google). It also supports plugins to work with specific frameworks or libraries (e.g., React, Vue).
+Pluggable and Configurable: ESLint allows you to write custom rules or use pre-defined ones (like from Airbnb or Google). 
+It also supports plugins to work with specific frameworks or libraries (e.g., React, Vue).
 Autofixing: ESLint can automatically fix many issues, such as formatting problems (e.g., extra spaces, missing semicolons) and even some errors.
 Integrations: ESLint can be integrated into many text editors (VS Code, Sublime, Atom) and build systems to lint code as you write it.
 Example of ESLint in Action:
@@ -138,4 +140,5 @@ Copy code
     "plugin:@typescript-eslint/recommended"
   ]
 }
-In summary, ESLint is a powerful tool for maintaining clean, consistent, and error-free JavaScript (or TypeScript) code. It can be customized to your specific coding style, framework, and project needs.
+In summary, ESLint is a powerful tool for maintaining clean, consistent, and error-free JavaScript (or TypeScript) code. 
+It can be customized to your specific coding style, framework, and project needs.
